@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Press Centes</title>
+    <link rel="icon" href="http://www.templatemonster.com/favicon.ico"> <!-- slider -->
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800italic,600italic' rel='stylesheet' type='text/css'>
+	<script src=" http://code.jquery.com/jquery-latest.js"></script>
+	<!-- <script src="main.js"></script> -->
+    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="js/jquery.glide.min.js"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="css/slider.css">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+</head>
+<body>
+	<div id="portada" class="menu_index">  <!-- Portada -->
+		<header class="navegador menu-fixed">
+			<figure class="logotipo-navegador contenedor">
+				<img src="imagen/logo-chico.png" width="145" alt="logo-pequeño">
+			</figure>
+				<nav class="contenedor">
+					<ul class="menu">
+						<li>
+							<a href="index.html"><span>Inicio</span></a>
+						</li>
+						<li>
+							<a href="#"><span>Productos</span></a>
+							<ul>
+								<li><a class="sub_menu" href="agendas.html">Agendas</a></li>
+								<li><a class="sub_menu" href="#">Almaques</a></li>
+								<li><a class="sub_menu" href="#">Dipticos</a></li>
+								<li><a class="sub_menu" href="#">Tarjetas</a></li>
+							</ul>
+						</li>
+						<li>	
+							<a href="servicio.html"><span>Servicio</span></a>
+						</li>
+						<li>
+							<a href="index.html#portafolio"><span>Portafolio</span></a>
+						</li>
+						<li>
+							<a href="contacto.html"><span>Contacto</span></a>
+						</li>
+					</ul>
+				</nav>
+		</header>
+		</div>
+
+		<div class="fondo_contenedor contenedor"> <!-- CONTACTO -->
+			<h2 class="titulo-contacto"><strong>Contacto</strong></h2>
+			<form>
+			<div class="formulario-pg">
+				<div class="columna-1">
+					<label for="nombre">Nombre</label>
+					<input type="text" required id="nombre" name="nombre">
+					<label for="apellido">Apellido</label>
+					<input type="text" required id="apellido" name="apellido">
+					<label for="email">E-mail</label>
+					<input type="email" required id="email" name="email">
+					<label for="telf">Teléfono</label>
+					<input type="number" required id="telephone" name="">
+				</div>
+				<div class="columna-2">
+					<label for="comentarios">Comentarios</label>
+					<textarea name="comentarios" id="comentarios" cols="60" rows="18" rol="7"></textarea>
+					<button type="submit" value="enviar" class="button-contacto">enviar</button>
+					<!-- <input type="submit" value="enviar" class="button-contacto"> -->
+				</div>
+			</div>
+			<div class="operadora">
+					<img src="imagen/chica-teleoperadora-telemarketing.png" alt="operadora" width="450">
+			</div>
+			</form>				
+		</div>
+
+		<footer id="footer" class="footer"> <!-- Footer -->
+		<div class="contenedor">
+			<div class="col1">
+				<div class="logotipo-footer">
+					<figure>
+						<img class="logo" src="imagen/logo.png" width="300" alt="logotipo footer">
+					</figure>
+					<div class="redsocial">
+						<h3>Siguenos!!!</h3>
+						<a class="face" href=""><img src="imagen/Facebook40px.png" alt="facebook"></a>
+						<a class="twitter" href=""><img src="imagen/Twitter40px.png" alt="twitter"></a>
+					</div>
+				</div>
+			</div>
+			<div class="col2">
+				<div class="contacto">
+					<p><strong>Lima - La Mar 2342 <br>San Miguel</strong><br><strong>HORARIO de Atención</strong><br>Lunes - Viernes 9:00am - 5:00pm</p>
+					<a href="tel:+99474458323"><strong>Telefono: </strong>  99474458323</a>
+					<a href="mailto:contacto@xx.com"><strong><br>E-mail: </strong> contacto@xx.com</a>
+				</div>
+			</div>
+			<form class="formulario">
+				<div class="col3-a">
+					<label for="nombre">Nombre</label>
+					<input type="text" required id="nombre" name="nombre">
+					<label for="email">E-mail</label>
+					<input type="email" required id="email" name="email">		
+					<div class="sexo">
+						<label for="mujer">
+							<input type="radio" id="mujer" checked name="sexo" value="mujer">Mujer
+						</label>
+						<label for="hombre">
+							<input type="radio" id="hombre" checked name="sexo" value="hombre">Hombre
+						</label>
+					<div class="intereses">
+						<label for="cotizacion">
+							<input type="checkbox" checked id="cotizacion" name="intereses" value="cotizacion">Cotización
+						</label>
+						<label for="reclamos">
+							<input type="checkbox" checked id="reclamos" name="intereses" value="reclamos">Reclamos
+						</label>
+						<label for="comentarios">
+							<input type="checkbox" checked id="comentarios" name="intereses" value="comentarios">Comentarios
+						</label>
+						<label for="otros">
+							<input type="checkbox" checked id="otros" name="interes" value="otros">Otros
+						</label>
+					</div>
+				</div>
+				<div class="col3-b">
+						<label for="comentario">Comentarios</label>
+						<textarea name="comentarios" id="comentarios" cols="50" rows="10" rols="7"></textarea>
+						<input  type="submit" value="enviar" class="button-footer">
+				</div>
+				</div>
+			</form>			
+		</div>
+		</footer>
+
+
+</body>
+</html>
