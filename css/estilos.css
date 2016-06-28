@@ -180,7 +180,7 @@ h1{
 .footer .contenedor{
 	display: flex;
 }
-.col1 .col2{
+.col1, .col2{
 	display: flex;
 }
 .col1{
@@ -360,6 +360,10 @@ h1{
 }
 .button-contacto:hover{
 	box-shadow: 2px 0 5px 2px rgba(0,0,0,.3);
+}
+.contacto-registro:focus{
+	background-color: #191919;
+	color: white;
 }
 
 /*AGENDAS*/
